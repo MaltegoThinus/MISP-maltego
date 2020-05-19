@@ -30,7 +30,7 @@ Your transforms will go through Paterva's servers and ours. See the [Transform H
 If you trust nobody, or just want to connect to your local MISP server you can install everything as local transforms.
 
 These instructions have been tested on Ubuntu 18.04 LTS, but should be similar on other systems.
-1. Download and install [Maltego](https://www.paterva.com/web7/downloads.php)
+1. Download and install [Maltego](https://www.maltego.com/downloads/)
 2. Install using pip: `sudo pip3 install MISP-maltego`
 3. Generate the Maltego bundle: `canari create-profile MISP_maltego`
 4. Import this bundle in Maltego. 
